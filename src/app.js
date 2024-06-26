@@ -6,7 +6,7 @@ const cartRouter = require('./routers/cart')
 const orderRouter = require('./routers/order')
 require('./db/mongoose')
 
-const port = process.env.PORT
+const port = process.env.PORT || 3000
 
 const app = express()
 
