@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nodejs
-        image: "jinalpadhiar15@gmail.com/e-commerce-api-app:latest"
+        image: jinalpadhiar15@gmail.com/e-commerce-api-app:latest
         ports:
         - containerPort: 8080
         env:
